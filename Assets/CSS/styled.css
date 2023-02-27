@@ -107,9 +107,51 @@ footer{
 @media(max-width: 800px) {
     main{
         flex-direction: column;
+        
 
     }
-
+    .game{
+        margin: 0;
+    }
+    
+    .score{
+        margin-top: 10px;
+    }
+    .instructions{
+     display: none;
+    }
+    .msgwin{
+        font-size: 30px;
+        height: 40px;
+    }
 
     
+}
+@media(max-width: 330px) {
+
+    .game{
+        width: 90vw;
+        height: auto;
+    }
+    .game .campo{    
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 30vw;
+        height:30vw;
+        
+        
+    }
+    #buttonRestartRound{
+        font-size: 17px;
+        padding: 5px 10px;
+    }
+    .xWins{
+        margin: 0px;
+    }
+    .button{
+        margin: 5px;
+    }
 }
