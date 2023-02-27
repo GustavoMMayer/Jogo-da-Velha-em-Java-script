@@ -38,3 +38,7 @@ Esse jogo deve:
 Todos os eventos do jogo devem ser feitos por listener via javascript, nenhum evento deve ser inserido no HTML.
 
 O design não é fator importante, mas a funcionalidade do jogo e a estruturação da página é essencial.
+
+## link para o jogo:
+
+https://jogo-da-velha-js-alpha.vercel.app/
