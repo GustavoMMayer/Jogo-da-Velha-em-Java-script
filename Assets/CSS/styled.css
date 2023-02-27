@@ -103,3 +103,13 @@ footer{
     background-color: #59f;
     
 }
+
+@media(max-width: 800px) {
+    main{
+        flex-direction: column;
+
+    }
+
+
+    
+}
