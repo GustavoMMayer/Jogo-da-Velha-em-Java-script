@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color:#fff;
+    
+}
+
+header{
+    text-align: center;
+    background-color: #59f;
+    
+}
+main{
+    
+    display: flex;
+    flex: 1;
+    background-color: #26A;
+    justify-content: space-around;
+    align-items: center;
+        
+
+}
+.score,
+.instructions{
+  width: 200px;
+    margin-top: 40px;
+}
+.score{
+    margin-left: 10px;
+}
+.xWins{
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: #59f;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 0;
+    color: #fff;
+    margin: 20px;
+}
+.button:hover{
+    background-color: #7bf ;
+}
+
+#buttonRestartRound{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.game{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+    margin: 40px;
+    width: 304px;
+    height: 304px;
+    
+    
+}
+.game .campo{    
+    background-color: #aaa;
+    font-size: 80px;
+    line-height: 100%;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.game .campo:hover{
+    background-color:#aaf ;
+}
+
+li{
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.msgwin{
+    width: 100%;
+    height: 100px;
+    background-color: #26A;
+    color: #fff;
+    font-size: 75px;
+    text-align: center;
+}
+footer{
+    height: 20px;
+    text-align: center;
+    background-color: #59f;
+    
+}
